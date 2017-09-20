@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		674337F982150400422D0DEE /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43972A7A7E7735D3844CA0D /* Pods_Smack.framework */; };
 		8322E2ED1F629C6A00A20D07 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8322E2EC1F629C6A00A20D07 /* GradientView.swift */; };
+		832CFEB61F725DA30074658B /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832CFEB51F725DA20074658B /* CreateAccountVC.swift */; };
 		8398A6211F61415900B33B31 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A61F1F61415900B33B31 /* SWRevealViewController.m */; };
 		839E6CD31F6287E400B105F1 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E6CD21F6287E400B105F1 /* ChatVC.swift */; };
 		839E6CD51F62882100B105F1 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E6CD41F62882100B105F1 /* ChannelVC.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		8322E2EC1F629C6A00A20D07 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = ewSwift/GradientView.swift; sourceTree = "<group>"; };
+		832CFEB51F725DA20074658B /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountVC.swift; path = erSwift/CreateAccountVC.swift; sourceTree = "<group>"; };
 		8398A61E1F61415700B33B31 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		8398A61F1F61415900B33B31 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8398A6201F61415900B33B31 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		839E6CCF1F62874200B105F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				832CFEB51F725DA20074658B /* CreateAccountVC.swift */,
 				83C8C29C1F711A600007175A /* LoginVC.swift */,
 				839E6CD41F62882100B105F1 /* ChannelVC.swift */,
 				839E6CD21F6287E400B105F1 /* ChatVC.swift */,
@@ -272,6 +275,7 @@
 			files = (
 				839E6CD31F6287E400B105F1 /* ChatVC.swift in Sources */,
 				83A5F56C1F5FF80100BB2AB7 /* AppDelegate.swift in Sources */,
+				832CFEB61F725DA30074658B /* CreateAccountVC.swift in Sources */,
 				83C8C29D1F711A600007175A /* LoginVC.swift in Sources */,
 				8322E2ED1F629C6A00A20D07 /* GradientView.swift in Sources */,
 				8398A6211F61415900B33B31 /* SWRevealViewController.m in Sources */,
